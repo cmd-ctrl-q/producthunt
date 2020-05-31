@@ -54,4 +54,6 @@ def logout(request):
     # return user back to home
     return redirect('home')
 
-
+# def getuser(request, user_id):
+#     user = get_object_or_404(User, pk=user_id)
+#     return user
